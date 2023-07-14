@@ -4,7 +4,7 @@
     class Hat extends Garment{
         public String $hatType;
 
-        public function __construct($material, $hatType) {
+        public function __construct(String $material, String $hatType) {
             parent::__construct($material);
             $this->hatType = $hatType;
         }

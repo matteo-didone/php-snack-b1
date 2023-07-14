@@ -6,7 +6,7 @@
 
         public String $shoeSize;
 
-        public function __construct($material, $shoeSize) {
+        public function __construct(String $material, String $shoeSize) {
             parent::__construct($material);
             $this->shoeSize = $shoeSize;
         }
